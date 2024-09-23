@@ -3,7 +3,7 @@
 
 # Игнорирование виртуальных окружений
 myshop/venv/
-env/
+venv/
 
 # Игнорирование системных папок Python
 __pycache__/
@@ -20,3 +20,6 @@ __pycache__/
 # Игнорирование файлов ОС
 .DS_Store
 Thumbs.db
+
+*.pyc
+db.sqlite3git checkout develop
